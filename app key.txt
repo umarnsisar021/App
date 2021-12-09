@@ -1,0 +1,9 @@
+  Keystore password: f0bd25e0ea9f40cb88c84543b52b06af
+  Key alias:         QHVtYXJuaXNhcjAyMS9BcHA=
+  Key password:      ea0a2bdbf63749c3aae6cc6325083c06
+
+
+Google Certificate Fingerprint:     D4:DA:16:D1:CF:BD:F7:AE:89:C6:26:51:B5:CC:97:05:6F:FB:07:88
+Google Certificate Hash (SHA-1):    D4DA16D1CFBDF7AE89C62651B5CC97056FFB0788
+Google Certificate Hash (SHA-256):  ABD35BBCB964232520694AD6899904EF5A1D00D017CC2BF88E7FB5D903AAE51E
+Facebook Key Hash:                  1NoW0c+9966JxiZRtcyXBW/7B4g=

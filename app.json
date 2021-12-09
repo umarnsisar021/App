@@ -1,0 +1,80 @@
+{
+  "expo": {
+    "name": "Piklo Driver",
+    "slug": "App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "facebookAppId" : "4629323113765111",
+
+    "facebookDisplayName" : "Piklo Driver",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/app/splash.png",
+          "color": "#ffffff",
+          "sounds": [
+            "./assets/sounds/notification.mp3"
+          ],
+          "mode": "production"
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.574930189697-bq2hbs43ie7pm0va97g1h1nebi92p3go"
+        },
+        "googleMapsApiKey": "AIzaSyAQwh69XGo86_CeQqJ2TJMKgf62XPYcF28"
+      },
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.piklo.driver",
+      "buildNumber": "1.0.3.2",
+      "infoPlist": {
+        "UIBackgroundModes": ["location","fetch"],
+        "NSCameraUsageDescription": "The picture will be used to inform the state of the packages during delivery",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Piklo use location to enhance performance.",
+        "NSLocationWhenInUseUsageDescription": "Piklo use location to enhance performance.",
+        "NSLocationAlwaysUsageDescription": "Piklo use location to enhance performance."
+      }
+    },
+    "android": {
+      "package": "com.piklo.driver",
+      "versionCode": 1,
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/iconandroid.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config":{
+        "googleMaps":{
+          "apiKey": "AIzaSyAQwh69XGo86_CeQqJ2TJMKgf62XPYcF28"
+        }
+      },
+      "permissions": [
+        "CAMERA",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "FOREGROUND_SERVICE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
